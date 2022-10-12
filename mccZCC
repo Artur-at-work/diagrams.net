@@ -1,1 +1,216 @@
-<mxfile host="app.diagrams.net" modified="2022-10-12T12:36:57.744Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.3.3" etag="YtUecJDu8DwtDf23s_3d" type="github"><diagram id="ajuLrq9-fujCW6GkQ6eo">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-12T13:18:42.754Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="JpulBbyh_UNeecdugI0n" version="20.3.3" type="github">
+  <diagram id="ajuLrq9-fujCW6GkQ6eo" name="Page-1">
+    <mxGraphModel dx="1038" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KAPCWLe1Vg-yDSyNCuY5-1" target="KAPCWLe1Vg-yDSyNCuY5-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KAPCWLe1Vg-yDSyNCuY5-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-1" value="BASE_MODE specified?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="20" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-2" value="Get from system files:&lt;br&gt;*.A17 / *.xts / factorip.*" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="30" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-4" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="35" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-7" value="Yes (get the arguments)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="305" y="100" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KAPCWLe1Vg-yDSyNCuY5-8" target="KAPCWLe1Vg-yDSyNCuY5-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KAPCWLe1Vg-yDSyNCuY5-8" target="KAPCWLe1Vg-yDSyNCuY5-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-8" value="App image exists AND in rescue mode?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="130" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-9" value="zcc_mcc_exit 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-11" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="135" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KAPCWLe1Vg-yDSyNCuY5-2" target="KAPCWLe1Vg-yDSyNCuY5-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="565" y="90" as="sourcePoint" />
+            <mxPoint x="370" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KAPCWLe1Vg-yDSyNCuY5-16" target="KAPCWLe1Vg-yDSyNCuY5-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KAPCWLe1Vg-yDSyNCuY5-16" target="KAPCWLe1Vg-yDSyNCuY5-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-16" value="Is it remote radio?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="220" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-20" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="225" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KAPCWLe1Vg-yDSyNCuY5-21" target="KAPCWLe1Vg-yDSyNCuY5-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-21" value="Any IPs in the list?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="215" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-22" value="zcc_mcc_exit 12" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-24" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="225" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KAPCWLe1Vg-yDSyNCuY5-25" target="KAPCWLe1Vg-yDSyNCuY5-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-25" value="zcc_mcc_sdcard_check" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="310" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="KAPCWLe1Vg-yDSyNCuY5-21" target="KAPCWLe1Vg-yDSyNCuY5-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="250" as="sourcePoint" />
+            <mxPoint x="360" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-28" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="280" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KAPCWLe1Vg-yDSyNCuY5-29" target="KAPCWLe1Vg-yDSyNCuY5-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KAPCWLe1Vg-yDSyNCuY5-29" target="KAPCWLe1Vg-yDSyNCuY5-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-29" value="Is password correct?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="390" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-31" value="mcc_zcc_exit 11" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="395" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-33" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455" y="395" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KAPCWLe1Vg-yDSyNCuY5-34" target="KAPCWLe1Vg-yDSyNCuY5-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KAPCWLe1Vg-yDSyNCuY5-34" target="KAPCWLe1Vg-yDSyNCuY5-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-34" value="Is IP and Port specified?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="480" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-38" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455" y="480" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KAPCWLe1Vg-yDSyNCuY5-39" target="KAPCWLe1Vg-yDSyNCuY5-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KAPCWLe1Vg-yDSyNCuY5-39" target="KAPCWLe1Vg-yDSyNCuY5-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-39" value="/opt/lilee/etc/zcc/mcc exists?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="570" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-41" value="Nothing staged, exit 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="575" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-43" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="570" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-45" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="195" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-46" value="mcc_zcc_set_rescue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="485" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-50" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="455" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-51" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="545" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-52" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="280" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KAPCWLe1Vg-yDSyNCuY5-53" target="KAPCWLe1Vg-yDSyNCuY5-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-53" value="Valid Area/Loco ID?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="660" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-55" value="zcc_mcc_exit 2" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="665" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-57" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455" y="665" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-58" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="635" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KAPCWLe1Vg-yDSyNCuY5-62" target="KAPCWLe1Vg-yDSyNCuY5-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-62" value="Only one DB .csv file?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="745" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-63" value="zcc_mcc_exit 5" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-64" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455" y="745" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-65" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="725" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=-0.01;entryY=0.747;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KAPCWLe1Vg-yDSyNCuY5-53" target="KAPCWLe1Vg-yDSyNCuY5-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="670" as="sourcePoint" />
+            <mxPoint x="310" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="KAPCWLe1Vg-yDSyNCuY5-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450.4" y="870" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-70" value="zcc_mcc_exit 3" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510.4" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-71" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455.4" y="835" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-72" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360.4" y="815" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-73" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=-0.01;entryY=0.747;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="KAPCWLe1Vg-yDSyNCuY5-72">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360.4" y="820" as="sourcePoint" />
+            <mxPoint x="310.4" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KAPCWLe1Vg-yDSyNCuY5-74" target="KAPCWLe1Vg-yDSyNCuY5-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-74" value="ZCC_MCC_RUNNING_APP&lt;br&gt;specified?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="835" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPCWLe1Vg-yDSyNCuY5-75" value="Remove stale image if specified" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="920" width="180" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
