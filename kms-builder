@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2022-11-10T07:35:01.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.4.1" etag="Go3Jz8mmLFVT5NETUa5t" type="github"><diagram id="e_YzWe6hwYNAqv1KpRh3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-10T08:39:58.487Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="zFe_to2uGy-q8c-MQlH3" version="20.4.1" type="github">
+  <diagram id="e_YzWe6hwYNAqv1KpRh3" name="Page-1">
+    <mxGraphModel dx="1888" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="i89psWK7_WUIoBLHCgLY-1" value="install --mode=755 -d %{buildroot}/opt/kms/Core&#xa;install --mode=755 -D pyi_build/%{core_app} %{buildroot}/opt/kms/bin/%{core_app}/%{core_app}&#xa;install --mode=644 -D src/Apps/Core/%{core_app}.service %{buildroot}/etc/systemd/system/%{core_app}.service&#xa;install --mode=755 -D src/set_db_password.sh %{buildroot}/opt/kms/bin/set_db_password.sh&#xa;install --mode=755 -D src/start_kms_services.sh %{buildroot}/opt/kms/bin/start_kms_services.sh&#xa;install --mode=755 -D src/restart_kms_services.sh %{buildroot}/opt/kms/bin/restart_kms_services.sh&#xa;install --mode=755 -D src/stop_kms_services.sh %{buildroot}/opt/kms/bin/stop_kms_services.sh" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="340" width="560" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="i89psWK7_WUIoBLHCgLY-2" value="KMS/rpm_build/kms_installer.spec" style="text;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-100" y="130" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i89psWK7_WUIoBLHCgLY-4" value="kms_installer_rpm:" style="text;whiteSpace=wrap;html=1;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="10" y="30" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i89psWK7_WUIoBLHCgLY-5" value="rpmbuild -bb --define &#39;_Theme_Name $(Theme_Name)&#39; ~/rpmbuild/SPECS/kms_installer.spec" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="70" width="530" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i89psWK7_WUIoBLHCgLY-6" value="cp ./KMS/rpm_build/kms_installer.spec ~/rpmbuild/SPECS" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="50" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i89psWK7_WUIoBLHCgLY-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="i89psWK7_WUIoBLHCgLY-7" target="i89psWK7_WUIoBLHCgLY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i89psWK7_WUIoBLHCgLY-7" value="Makefile" style="text;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-50" y="30" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i89psWK7_WUIoBLHCgLY-9" value="%define core_app  core_app" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="150" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i89psWK7_WUIoBLHCgLY-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i89psWK7_WUIoBLHCgLY-10" target="i89psWK7_WUIoBLHCgLY-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i89psWK7_WUIoBLHCgLY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="i89psWK7_WUIoBLHCgLY-10" target="i89psWK7_WUIoBLHCgLY-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i89psWK7_WUIoBLHCgLY-10" value="%build&#xa;cd pyi_build &amp;&amp; ./build_libs %{version}-%{release} %{name}&#xa;./build_app %{core_app} %{version}-%{release}" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="170" width="350" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="i89psWK7_WUIoBLHCgLY-12" value=". ./config&#xa;PYINSTALLER=$PYTHON_PATH/bin/pyinstaller" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="140" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i89psWK7_WUIoBLHCgLY-14" value="KMS/pyi_build/build_libs" style="text;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="300" y="120" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i89psWK7_WUIoBLHCgLY-16" value="APP_SPEC=&quot;libs.spec&quot;&#xa;LD_LIBRARY_PATH=${SSL_LIB}:${PYTHON_PATH}/lib $PYINSTALLER $APP_SPEC $PYINSTALLER $APP_SPEC" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="170" width="560" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="i89psWK7_WUIoBLHCgLY-17" value="KMS/pyi_build/build_app" style="text;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="300" y="230" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i89psWK7_WUIoBLHCgLY-19" value="if [ -z $3 ]; then&#xa;    LD_LIBRARY_PATH=${SSL_LIB}:${PYTHON_PATH}/lib $PYINSTALLER $APP_SPEC&#xa;    mv dist/$1/$1 .&#xa;fi" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="250" width="510" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
