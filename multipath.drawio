@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-20T08:23:09.730Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="1RCxfr_EIzDI9c5eKyVH" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-20T08:51:03.863Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="oFGS06cDup1YSzDkwgZN" version="20.8.13" type="github">
   <diagram name="Page-1" id="2J_9FyxqPTRixcqzXdzy">
     <mxGraphModel dx="1900" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -36,6 +36,21 @@
         </mxCell>
         <mxCell id="Iels-fT38VjhoUJIh57o-8" value="restart network service" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Iels-fT38VjhoUJIh57o-11" value="Multipath Diagram" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="110" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Iels-fT38VjhoUJIh57o-12" value="CTC LED&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="105" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Iels-fT38VjhoUJIh57o-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Iels-fT38VjhoUJIh57o-13" target="Iels-fT38VjhoUJIh57o-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Iels-fT38VjhoUJIh57o-13" value="&lt;b&gt;/opt/lilee/bin/wiuZCC&lt;/b&gt;&lt;br&gt;1. add function ctc_fail_led_on()&lt;br&gt;2. in ctc_fail_led_on() identify device WMS/STS/etc. and call respective LED interface" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="150" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Iels-fT38VjhoUJIh57o-14" value="wms/sts/etc LED interface" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="240" width="220" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
