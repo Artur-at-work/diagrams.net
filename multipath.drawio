@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2023-07-20T08:16:41.512Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="20.8.13" etag="8HidZDUIcq7Xi4DAaJKo" type="github"><diagram name="Page-1" id="2J_9FyxqPTRixcqzXdzy">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-07-20T08:22:30.401Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="QTPbUD78n1yaX2nXKPb6" version="20.8.13" type="github">
+  <diagram name="Page-1" id="2J_9FyxqPTRixcqzXdzy">
+    <mxGraphModel dx="1900" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Iels-fT38VjhoUJIh57o-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Iels-fT38VjhoUJIh57o-1" target="Iels-fT38VjhoUJIh57o-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Iels-fT38VjhoUJIh57o-1" value="&lt;b&gt;/opt/lilee/bin/lilee-multipath&lt;/b&gt;&lt;br&gt;1. pings GW1 every second&lt;br&gt;2. if GW1 offline and GW2 online, then change route to GW2" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="260" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Iels-fT38VjhoUJIh57o-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Iels-fT38VjhoUJIh57o-2" target="Iels-fT38VjhoUJIh57o-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Iels-fT38VjhoUJIh57o-2" value="&lt;b&gt;/etc/init.d/lilee-multipath&lt;/b&gt;&lt;br&gt;service file to call /opt/lilee/bin/lilee-multipath&lt;br&gt;allows to status | restart| stop the service" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="130" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Iels-fT38VjhoUJIh57o-4" value="&lt;b&gt;/etc/sysconfig/network-scripts/ifcfg-eth0&lt;/b&gt;&lt;br&gt;gateway=10.255.255.254" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="420" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Iels-fT38VjhoUJIh57o-6" value="&lt;b&gt;route add / delete&lt;/b&gt;&lt;br&gt;use route to update the gateway" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="420" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Iels-fT38VjhoUJIh57o-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.603;entryY=-0.043;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Iels-fT38VjhoUJIh57o-1" target="Iels-fT38VjhoUJIh57o-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="235" y="380" as="sourcePoint" />
+            <mxPoint x="100" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
